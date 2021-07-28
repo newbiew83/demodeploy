@@ -8,8 +8,7 @@
     set('application', 'Demo Deploy');
     
     // Project repository
-    set('repository', 'git@github.com:newbiew83/demodeploy.git');
-    
+    set('repository', 'git@github.com:newbiew83/demodeploy.git');    
     
     // [Optional] Allocate tty for git clone. Default value is false.
     set('git_tty', false);
