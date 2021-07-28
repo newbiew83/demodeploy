@@ -38,6 +38,7 @@
     ->identityFile('/Users/newbiew/.ssh/id_rsa')
     ->set('deploy_path', '/var/www/html/demodeploy'); //must be same as define at nginx host
     
+    
     set('ssh_multiplexing', false);
     
     set('composer_options', 'install --verbose');
